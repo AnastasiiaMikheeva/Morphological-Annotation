@@ -12,28 +12,44 @@ gender, language background and language experience of the student (L2 or HL), s
 text type (one paragraph or a long research paper), text function (e.g. narration, argumentation), and whether a paper was written individually or in a group.
 
 ## Project description for annotation of morphological errors
-For the purposes of morphological annotation 66 essays of HL and 70 essays of FL Russian learners on intermediate level were taken. Each of the essays present a single .txt file. 
-The project aims at annotation of morphological errors done by Russian Language learners.  
+For the purposes of morphological annotation 66 essays of HL and 70 essays of FL Russian learners on intermediate level were taken. Each of the essays presents a single .txt file. 
+The project aims at annotation of morphological errors done by Russian Language learners. 
+For annotation the UAM Corpus Tool 3 is used as well as Morphological Analyzer Pymorphy 2 that uses the library which contains classes such as Morphanalyzer and utilizes one of the methods is used for the project .parse.
 
-## Morphological Error Types in DTD-format
+## Types of Morphological Errors 
 
-Derivational morphemes:
-<!ELEMENT derivational ( #PCDATA ) >
-<!ATTLIST derivational suffix (| omission | spelling | insertion | transposition | substitution ) #IMPLIED >
-<!ATTLIST derivational prefix (| omission | spelling | insertion | transposition | substitution ) #IMPLIED >
-<!ATTLIST derivational compounding #IMPLIED >
+1. Derivational morphemes:
 
-Inflectional morphemes: 
-<!ELEMENT inflectional ( #PCDATA ) >
-<!ATTLIST inflectional suffix (| gender | case | plural | infinitive | tense | mood | participle | adverbial_participle | degree
-<!ATTLIST inflectional flection (| gender | case | plural | person)
+a.Derivational suffixex annd prefixes:
+omission
+spelling
+insertion
+transposition
+substitution
+b. Derivational compounding 
+
+2. Inflectional morphemes: 
+
+a. Suffixes:
+gender
+case
+plural
+infinitive
+tense
+mood
+participle
+adverbial_participle
+degree
+b. Flections: 
+gender
+case
+plural
+person
 
 Derivational suffixes in Russian include suffixes that help form words (стол – стол-ик, груз-ить – груз-чик, бел-ый – бел-изн-а).
 Derivational prefixes are also very common in the language to build words (пере-делать, с-делать, до-делать, вы-делать). 
 One of the most common ways to form a word is compounding where two different roots are added in order to make a single word (пар-о-ход, пут-е-провод). 
 Postfixes are suffixes that are attached to a word at the most end after all derivational suffixes (-ся/-сь, -те, -то, -либо, -нибудь).
 Inflectional morphemes are divided by suffixes and inflections (or flections). Suffixes refer mainly to the infinitive of a verb (-ти/-тъ); Suffixes attached to a stem of a word in the present or past tense (-л-); Imperative form of a verb (и); Participles (-ущ-, -ющ-, -ащ-, -ящ-, -вш-, -ш-, -им-, -ом-, -ем-, -нн-, -они-, -енн) and adverbial participles (а, -я, -ши, -вши, -учи, -ючи, -ав); comparatives and superlatives by adjectives and adverbs (ее, -ей, -ейш-, -айш-, -ше, -же) ; plurals of nouns (-/-, -ее-, -ен-); null suffixes such as (пёк, вёз). Inflectional morphemes such as flection refer to the categories that change their forms in the process of declension: (мальчик – мальчика, мальчику, мальчиком). Inflected can be nouns and adjectives. 
-
-
 
 
