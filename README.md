@@ -1,4 +1,4 @@
-# Morphological Errors Annotation
+# Annotation of Morphological Errors 
 
 ## Obtaining the Annotated Data
 This is a project for morphological annotation of Learner Corpus of Russian Language. The basis for the project forms the RULEC, which is a large compilation of hand-written and digital data collected from students of Russian as a Foreign Language. The original corpus was created by and belongs to Olesya Kisselev and Anna Alsufieva. The Principal Investigators are Professor Olesya Kisselev, Department of World Languages and Literatures, Portland State University (kisselev@pdx.edu) and Professor Anna Alsufieva, Department of World Languages and Literatures, Portland State University ( alsufiev@pdx.edu ). 
