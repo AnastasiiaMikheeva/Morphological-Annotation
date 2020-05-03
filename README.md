@@ -19,7 +19,7 @@ For annotation the UAM Corpus Tool 3 is used as well as Morphological Analyzer P
 ## Types of Morphological Errors 
 
 1. Derivational morphemes:
-a.Derivational suffixex annd prefixes: omission, spelling, insertion, transposition, substitution.
+a. Derivational suffixes annd prefixes: omission, spelling, insertion, transposition, substitution.
 b. Derivational compounding 
 2. Inflectional morphemes: 
 a. Suffixes: gender, case, plural, infinitive, tense, mood, participle, adverbial_participle, degree.
