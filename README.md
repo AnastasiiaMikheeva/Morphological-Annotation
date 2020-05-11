@@ -14,7 +14,7 @@ text type (one paragraph or a long research paper), text function (e.g. narratio
 ## Project description for annotation of morphological errors
 For the purposes of morphological annotation 66 essays of HL and 66 essays of FL Russian learners on intermediate level were taken. Each of the essays presents a single .txt file. 
 The project aims at annotation of morphological errors done by Russian Language learners. 
-For annotation the UAM Corpus Tool 3 is used as well as Morphological Analyzer Pymorphy 2 that uses the library which contains classes such as Morphanalyzer and utilizes one of the methods is used for the project .parse.
+For annotation I used the UAM Corpus Tool 3.
 
 ## Types of Morphological Errors 
 
